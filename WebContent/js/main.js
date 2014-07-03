@@ -26,6 +26,9 @@ nome.setAttribute('placeholder', 'Digite o nome');
 idade = document.createElement('input');
 idade.setAttribute('placeholder', 'Digite a idade');
 
+sexo = document.createElement('input');
+sexo.setAttribute('placeholder', 'Digite o sexo');
+
 function adicionar(evento){
 	evento.preventDefault();
 	var tr = document.createElement('tr');
@@ -42,6 +45,8 @@ botaoSalvar.innerText = 'Adicionar';
 botaoSalvar.addEventListener('click', adicionar);
 
 formulario.appendChild(nome);
+formulario.appendChild(idade);
+formulario.appendChild(sexo);
 formulario.appendChild(botaoSalvar);
 document.body.appendChild(formulario);
 document.body.appendChild(tabela);
