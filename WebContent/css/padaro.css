@@ -1,0 +1,11 @@
+@CHARSET "ISO-8859-1";
+div#tudo{
+width:100px;
+
+font:arial;
+font-size:18px;
+color:#FFFFCC;
+margin-left:auto;
+margin-right:auto;
+position:relative;
+left:200px;
